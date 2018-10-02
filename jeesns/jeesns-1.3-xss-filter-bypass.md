@@ -52,16 +52,16 @@ such as：
 
 We need register a account and sign in.
 
-![step1](image\jeesns-1.3-xss-filter-bypass-test-1.png)
+![step1](https://github.com/Jayl1n/CVE/blob/master/jeesns/image/jeesns-1.3-xss-filter-bypass-test-1.png)
 
 ### Step 2
 
 Then we post a new article and use our payload `<svg/onLoad=confirm(document.cookie)>`.
 
-![step2](image\jeesns-1.3-xss-filter-bypass-test-2.png)
+![step2](https://github.com/Jayl1n/CVE/blob/master/jeesns/image/jeesns-1.3-xss-filter-bypass-test-2.png)
 
 You can see the evil script will be execute when administrator or other visit the article list.
 
 ### Step 3
 
-![step3](image\jeesns-1.3-xss-filter-bypass-test-3.png)
+![step3](https://github.com/Jayl1n/CVE/blob/master/jeesns/image/jeesns-1.3-xss-filter-bypass-test-3.png)
